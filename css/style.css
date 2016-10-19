@@ -1,0 +1,6 @@
+body { min-width: 320px; background: #ccc; }
+
+.game-holder { padding: 0 20px; text-align: center; }
+.game { overflow: hidden; background: #000; margin: 0 auto; }
+
+.actions .active { box-shadow: inset 0 0 1px 1px rgba(0,0,0,.8); }

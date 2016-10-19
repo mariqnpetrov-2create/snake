@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0;">
+	<title>Snake</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/functions.js"></script>
+</head>
+<body>
+	<div class="game-holder">
+		<p>Rules: <br />Use keyboard arrows to navigate <br /> Eat blue squares for points <br />Eat red squares within the timeframe for bonus points <br />Change difficulty to match your skills</p>
+
+		<p>Press Space to Play</p>
+
+		<canvas class="game" id="canvas" width="1400" height="800">
+			
+		</canvas>
+
+		<div class="actions">
+			<p>Chose Difficulty</p>
+		
+			<button data-difficulty="easy">Easy</button>
+			
+			<button data-difficulty="normal">Normal</button>
+			
+			<button data-difficulty="hard" class="active">Hard</button>
+		</div>
+
+		<p>Current Score: <span id="score">0</span></p>
+	</div>
+</body>
+</html>
